@@ -1,0 +1,20 @@
+project(StatisticalFujisakiEst CXX)
+cmake_minimum_required(VERSION 2.8)
+
+set(BUILD_SHARED_LIBS ON)
+
+# set(CMAKE_CXX_FLAGS "-std=c++11 -Wall -Wextra -Wconversion")
+# set(CMAKE_CXX_FLAGS_DEBUG "-g3 -O0 -pg")
+# set(CMAKE_CXX_FLAGS_RELEASE "-O2 -s -DNDEBUG -mtune=native -march=native")
+# set(CMAKE_CXX_FLAGS_RELEASE "/MD /O2 /Ob2 /D NDEBUG")
+# set(CMAKE_CXX_FLAGS_RELWITHDEBINFO "-g3 -Og -pg")
+# set(CMAKE_CXX_FLAGS_MINSIZEREL "-Os -s -DNDEBUG -mtune=native -march=native")
+
+add_subdirectory(StatisticalFujisakiEst)
+add_subdirectory(utilities)
+add_subdirectory(hmm)
+add_subdirectory(emestimation)
+add_subdirectory(fujisaki)
+add_subdirectory(evaluation)
+add_subdirectory(compatibility_tool)
+add_subdirectory(external_constraint)
