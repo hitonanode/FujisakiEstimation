@@ -1,0 +1,25 @@
+{
+    "Comment": "sample config",
+    "isHmmSerialized": false,
+    "phraseBigStateNum": 20,
+    "accentBigStateNum": 20,
+    "phraseOnDuration": 5,
+
+    "enableLimitedDurationExtension": true,
+    "durationExtensionFactor": 0.001,
+    
+    "isHardEmEnabled": true,
+    "iterationNum": 20,
+    "mstepUpdateNumPerIteration": 10,
+    "perturbSearchWidth": 2,
+    
+    "defaultAlpha": 3.0,
+    "defaultBeta": 20.0,
+    "defaultSigmap2": 0.0009,
+    "defaultSigmaa2": 0.0009,
+    "defaultSigman2_voiced": 0.0009,
+    "defaultSigman2_unvoiced": 10000,
+    "regularizerOffset": 1e-4,
+    "zeroThreshold": 1e-9,
+    "inf": 1e20
+}
